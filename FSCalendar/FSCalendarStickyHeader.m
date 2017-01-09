@@ -88,6 +88,7 @@
 
 - (void)configureAppearance
 {
+    _titleLabel.textAlignment = NSTextAlignmentLeft;
     _titleLabel.font = self.calendar.appearance.headerTitleFont;
     _titleLabel.textColor = self.calendar.appearance.headerTitleColor;
     [self.weekdayView configureAppearance];
