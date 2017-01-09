@@ -133,7 +133,7 @@
 {
     FSCalendarHeaderCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     cell.header = self;
-    cell.titleLabel.textAlignment = NSTextAlignmentLeft
+    cell.titleLabel.textAlignment = NSTextAlignmentLeft;
     cell.titleLabel.font = _appearance.headerTitleFont;
     cell.titleLabel.textColor = _appearance.headerTitleColor;
     _calendar.formatter.dateFormat = _appearance.headerDateFormat;
