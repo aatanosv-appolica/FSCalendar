@@ -70,7 +70,7 @@
     
     _bottomBorder.frame = CGRectMake(0, _contentView.fs_height-weekdayHeight-weekdayMargin*2, _contentView.fs_width, 1.0);
     _bottomBorder.backgroundColor = [UIColor clearColor];
-    _titleLabel.frame = CGRectMake(0, _bottomBorder.fs_bottom-titleHeight-weekdayMargin, titleWidth,titleHeight);
+    _titleLabel.frame = CGRectMake(20, _bottomBorder.fs_bottom-titleHeight-weekdayMargin, titleWidth,titleHeight);
     
 }
 
